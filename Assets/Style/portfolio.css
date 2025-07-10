@@ -1,0 +1,51 @@
+
+
+
+.inter-primary{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Shared style */
+.text-primary{
+    color: #4E47FF;
+}
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+}
+/* Nav Style */
+nav{
+    display: flex;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 34px;
+}
+nav{
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+nav li{
+    list-style: none;
+    font-size: 16px;
+}
+.dark-2{
+    color: #252432;
+}
+.dark-1{
+    color: #FFFFFF;
+}
