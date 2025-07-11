@@ -84,8 +84,15 @@ main{
 }
 .main-banner{
     display: flex;
-    justify-content: space-between;
-    margin: 0 38 0 130;
+     border-radius: 10px;
+    padding: 130px 150px;
+    justify-content: space-around;
+}
+.main-banners{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    
 }
 .center{
     margin: 200px;
@@ -131,4 +138,32 @@ main{
 .user-m{
 
 }
-    
+/* From Style */
+.from-2{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+    justify-content: space-between;
+}
+.footer-column{
+    width: 50%;
+}
+section input[type="Email"], section input[type="Name"],
+section textarea{
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%s;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    justify-content: space-around;
+}
+.secondary-colour{
+    background-color: #f5f8ff;
+}
+.section-title{
+    font-size: 85px;
+    font-weight: bold;
+}
