@@ -58,6 +58,18 @@ nav li{
 .dark-3{
     color: #252432;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.secondary-im{
+    border-radius: 30px;
+}
 /* Banner style */
 .banner-heading{
     font-size: 65px;
@@ -69,6 +81,11 @@ nav li{
     height: 750px;
     width: 905px;
     text-align: center;
+}
+.main-banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38 0 130;
 }
 .center{
     margin: 200px;
